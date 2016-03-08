@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.7.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: StreetHawk's Analytics Module is core component of StreetHawk SDK. The module reports various vital raw data to StreetHawk servers which is further processed and used for various analytics for your application.  The module also provides API for tagging the install, identifying the users and tracking various important events inside your application. All other components of StreetHawk depends on Analytics component for it's functioning.
+author: StreetHawk
+license: Apache Public License
+copyright: 2016 StreetHawk
+
+# these should not be edited
+name: Analytics
+moduleid: com.streethawk.shanalytics
+guid: a5fef043-2887-4966-8d7f-7a2793b8b6e7
+platform: iphone
+minsdk: 5.0.0.GA
